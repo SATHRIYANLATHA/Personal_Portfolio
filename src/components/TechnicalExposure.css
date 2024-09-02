@@ -1,0 +1,23 @@
+.tech{
+    background-color: whitesmoke;
+    font-size: large;
+    align-items: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills{
+    width:500px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:20px;
+
+}
+
+.skill{
+    margin-left:20px;
+    margin-right:10px;
+}

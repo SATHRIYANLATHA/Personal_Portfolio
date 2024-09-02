@@ -1,0 +1,53 @@
+/* Container for the table to center and add margin */
+.table-container {
+    width: 80%; /* Adjust width as needed */
+    margin: 20px auto; /* Center horizontally with auto margin */
+    padding: 20px; /* Add padding around the table */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+    background-color: #f9f9f9; /* Light background for the container */
+    height: 300px; /* Fixed height for the container */
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+}
+
+/* Style for the table itself */
+table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Collapse borders to remove double lines */
+    height: 100%; /* Full height of the container */
+}
+
+/* Style for table headers */
+thead {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text color */
+}
+
+th, td {
+    padding: 12px; /* Padding inside cells */
+    text-align: left; /* Left-align text in cells */
+    border-bottom: 1px solid #ddd; /* Light grey border at the bottom of cells */
+    font-weight: bold; /* Bold text */
+}
+
+/* Hover effect for table rows */
+tbody tr:hover {
+    background-color: #f1f1f1; /* Light grey background on hover */
+}
+
+/* Style for table cells */
+td {
+    font-size: 1rem; /* Font size for table data */
+}
+
+/* Responsive table styling */
+@media screen and (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block; /* Display block for responsive layout */
+    }
+    th, td {
+        box-sizing: border-box; /* Include padding and border in element's width and height */
+        width: 100%; /* Full width for each cell */
+        display: block; /* Display block for cells */
+    }
+}
